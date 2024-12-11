@@ -29,10 +29,9 @@ Use the following MicroPython code to read data from the sensor: [micro python s
 
 
 
-Actual setup
+[Actual setup](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/DHT22%20(AM2302)%20Module/Images/actual%20setup.jpg)
 
-Diagram
+[Diagram](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/DHT22%20(AM2302)%20Module/Images/diagram.png)
 
-Install MicroPython on Pico W and Set Up the Script:
 
 

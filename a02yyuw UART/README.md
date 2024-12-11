@@ -19,4 +19,12 @@ This project involves measuring distance using a02yyuw waterproof UART ultrasoni
 ### Prepare arduino nano 33 IOT
 1. Press and hold the button on arduino nano 33 IOT and connect it to a workstation that hasr arduino IDE installed.
 2. From tools menu, select *board* and *port*
-3. Write cpp code
+
+### Code:
+Save the script on the arduino nano 33 IOT. Use the following C++ script to read data from the sensor: [cpp code](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/a02yyuw%20UART/measurment.cpp)
+
+
+
+[Actual setup](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/DHT22%20(AM2302)%20Module/Images/actual%20setup.jpg)
+
+[Diagram](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/DHT22%20(AM2302)%20Module/Images/diagram.png)

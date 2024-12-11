@@ -17,7 +17,7 @@ This project involves measuring temperature and humidity using a DHT22 (AM2302) 
 **Optional**: Add a 10 kΩ pull-up resistor between the Data line and VCC.
 
 ### Code:
-Use the following MicroPython code to read data from the sensor: [micro python script]
+Use the following MicroPython code to read data from the sensor: [micro python script](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/DHT22%20(AM2302)%20Module/main.py)
 
 ## Steps to Follow
 Set Up the Hardware:

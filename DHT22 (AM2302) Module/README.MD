@@ -16,6 +16,13 @@ This project involves measuring temperature and humidity using a DHT22 (AM2302) 
 3. GND (DHT22) → GND (Pico W)
 **Optional**: Add a 10 kΩ pull-up resistor between the Data line and VCC.
 
+### Prepare Pico-w 2022
+1. Flash the Pico W by holding the button on the Pico-w and connect it to an RPi or workstation running Thonny. A storage device should become available on your device.
+2. Copy the downloaded MicroPython firmware into the storage, and the device will automatically restart. (Always download from the Raspberry Pi website, ensuring it’s the latest version and specifically for your microcontroller.)
+Select the device in Thonny.
+Configure the interpreter from the Run menu, and select MicroPython.
+Install the DHT library from Manage packages in the Tools menu.
+Save the script on the Pico W as main.py (so that it runs on Pico startup).
 ### Code:
 Use the following MicroPython code to read data from the sensor: [micro python script](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/DHT22%20(AM2302)%20Module/main.py)
 
@@ -28,10 +35,5 @@ Actual setup
 Diagram
 
 Install MicroPython on Pico W and Set Up the Script:
-Flash the Pico W by holding the button on the Pico and connect it to an RPi or workstation running Thonny. A storage device should be available on your device.
-Copy the downloaded MicroPython firmware into the storage, and the device will automatically restart. (Always download from the Raspberry Pi website, ensuring it’s the latest version and specifically for your microcontroller.)
-Select the device in Thonny.
-Configure the interpreter from the Run menu, and select MicroPython.
-Install the DHT library from Manage packages in the Tools menu.
-Save the script on the Pico W as main.py (so that it runs on Pico startup).
+
 

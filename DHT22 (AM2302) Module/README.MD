@@ -22,14 +22,12 @@ This project involves measuring temperature and humidity using a DHT22 (AM2302) 
 3. Select the device in Thonny.
 4. Configure the interpreter from the Run menu, and select MicroPython.
 5. Install the DHT library from Manage packages from the Tools menu.
-Save the script on the Pico-w as main.py (so that it runs on Pico-w starts up).
 
 ### Code:
+Save the script on the Pico-w as main.py (so that it runs on Pico-w starts up).
 Use the following MicroPython code to read data from the sensor: [micro python script](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/DHT22%20(AM2302)%20Module/main.py)
 
-## Steps to Follow
-Set Up the Hardware:
-Connect the DHT22 sensor to the Pico W according to the wiring diagram.
+
 
 Actual setup
 

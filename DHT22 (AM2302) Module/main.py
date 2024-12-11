@@ -1,24 +1,33 @@
+###
+### The below code is compatible with Pico-W 2022 (micropython) ###
+
 import machine
 import time
 import network
 import dht
 import socket
 
-# ssid and pass
+# add your wifi
 name = "****"
 password = "****"
 
+# set pico to wlan
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
+
+#set variable of pico-w onboard LED
 led=machine.Pin('LED',machine.Pin.OUT)
+
+#scan and print the available wifi
 ap=wlan.scan()
 for ap in ap:
     print(ap)
-dht_pin = machine.Pin(22)
 
+#define the sensor
+dht_pin = machine.Pin(22)
 dht_sensor = dht.DHT22(dht_pin)
 
-
+#set wifi connection function
 def connect():
     while not wlan.isconnected():
         print('try to connect... ')
@@ -35,6 +44,8 @@ def connect():
         ip = wlan.ifconfig()[0]
         print(f'Connected on {ip}')
     return ip
+
+#set measument function
 def measure():
     dht_sensor.measure()
     temperature_celsius = str(dht_sensor.temperature())
@@ -47,12 +58,14 @@ tem,hum=measure()
 print(tem)
 print(hum)
 
+#create web socket
 addr = socket.getaddrinfo('0.0.0.0',80)[0][-1]
 s=socket.socket()
 s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR,1) #allow address reuse
 s.bind(addr)
 s.listen(1)
 print('listening on:', addr)
+
 try:
     while True:
         cl, addr=s.accept()

@@ -1,19 +1,19 @@
 # Temperature and Humidity Measurement with DHT22 (AM2302) Module and Pico-W 2022
 
 ## Introduction
-This project involves measuring temperature and humidity using a DHT22 (AM2302) Module sensor connected to a Pico-W 2022. The data pin of the sensor is connected to GPIO22.
+This project involves measuring temperature and humidity using a DHT22 (AM2302) Module sensor connected to a Pico-W 2022.
 
 ## Components Needed
 1. Pico-W 2022
 2. DHT22 (AM2302) Module
 3. Jumper Wires
 
-## Steps to Follow
+## Steps to setup
 
 ### Connect the sensor (DHT22) to the MCU (pico-w) as follows:
-VCC (DHT22) → 3.3V (Pico W)
-Data (DHT22) → GPIO22 (Pico W)
-GND (DHT22) → GND (Pico W)
+1. VCC (DHT22) → 3.3V (Pico W)
+2. Data (DHT22) → GPIO22 (Pico W)
+3. GND (DHT22) → GND (Pico W)
 **Optional**: Add a 10 kΩ pull-up resistor between the Data line and VCC.
 
 ### Code:

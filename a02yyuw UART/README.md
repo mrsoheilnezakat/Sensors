@@ -25,6 +25,6 @@ Save the script on the arduino nano 33 IOT. Use the following C++ script to read
 
 
 
-[Actual setup](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/DHT22%20(AM2302)%20Module/Images/actual%20setup.jpg)
+[Actual setup](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/a02yyuw%20UART/Images/connection.jpeg)
 
 [Diagram](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/DHT22%20(AM2302)%20Module/Images/diagram.png)

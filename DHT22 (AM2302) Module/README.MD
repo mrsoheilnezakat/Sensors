@@ -18,7 +18,7 @@ This project involves measuring temperature and humidity using a DHT22 (AM2302) 
 
 ### Prepare Pico-w 2022
 1. Flash the Pico W by holding the button on the Pico-w and connect it to an RPi or workstation running Thonny. A storage device should become available on your device.
-2. Copy the downloaded MicroPython firmware into the storage, and the device will automatically restart. (Always download from the Raspberry Pi website, ensuring it’s the latest version and specifically for your microcontroller.)
+2. Copy the downloaded MicroPython [firmware] (https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/DHT22%20(AM2302)%20Module/RPI_PICO_W-20241025-v1.24.0.uf2) into the storage, and the device will automatically restart. (Always download from the Raspberry Pi website, ensuring it’s the latest version and specifically for your microcontroller.)
 Select the device in Thonny.
 Configure the interpreter from the Run menu, and select MicroPython.
 Install the DHT library from Manage packages in the Tools menu.

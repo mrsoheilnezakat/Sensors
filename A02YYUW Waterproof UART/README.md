@@ -25,6 +25,8 @@ Use the following C++ code to read data from the sensor: [cpp code](https://gith
 
 
 
-[Actual set up](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/a02yyuw%20UART/Images/connection.jpeg)
+[Actual set up]
+(https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/a02yyuw%20UART/Images/connection.jpeg)
 
-[Diagram](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/DHT22%20(AM2302)%20Module/Images/diagram.png)
+[Diagram]
+(https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/DHT22%20(AM2302)%20Module/Images/diagram.png)

@@ -9,7 +9,7 @@ A pH probe measures how acidic or basic a liquid is by measuring the voltage gen
 3. By knowing the voltages at pH 4 and pH 7, the meter can draw a straight line between these two points. This line is called a regression line. Now, for any given voltage, the meter can guess the pH by seeing where the voltage fits on the line between pH 4 and pH 7.
 4. Once calibrated, when you dip the probe into any other liquid, the meter reads the voltage, follows the line you created, and figures out the pH. If the voltage matches the linear correlation, the meter can tell you the pH number of the unknown liquid.
 
-[pH probe datasheet](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Haoshi-101%20pH%20Probe/pH%20Electrode%20Instruction%20Manua%E2%80%A6.pdf)
+[pH probe datasheet](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/HAOSHI-101%20ph%20Probe/pH%20Electrode%20Instruction%20Manua%E2%80%A6.pdf)
 
 ## Components needed
 1. Arduino Nano 33 IoT

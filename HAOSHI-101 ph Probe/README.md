@@ -39,7 +39,7 @@ Save the script on the Arduino Nano 33 IoT. Use the following C++ script to read
 
 
 
-[Actual Setup](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Haoshi-101%20pH%20Probe/images/actual%20setup.jpg)
+[Actual Setup](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/HAOSHI-101%20ph%20Probe/images/actual%20setup.jpg)
 
-[Diagram](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Haoshi-101%20pH%20Probe/images/diagram.png)
+[Diagram](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/HAOSHI-101%20ph%20Probe/images/diagram.png)
 

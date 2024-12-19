@@ -25,8 +25,6 @@ Use the following C++ code to read data from the sensor: [cpp code](https://gith
 
 
 
-[Actual Setup]
-(https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/A02YYUW%20Waterproof%20UART/Images/connection.jpeg)
+[Actual Setup](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/A02YYUW%20Waterproof%20UART/Images/connection.jpeg)
 
-[Diagram]
-(https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/A02YYUW%20Waterproof%20UART/Images/Diagram.png)
+[Diagram](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/A02YYUW%20Waterproof%20UART/Images/Diagram.png)

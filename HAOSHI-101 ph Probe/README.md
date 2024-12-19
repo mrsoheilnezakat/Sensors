@@ -22,9 +22,9 @@ A pH probe measures how acidic or basic a liquid is by checking the voltage crea
 
 ### Connect the Haoshi-101 probe to the MCU (arduino nano 33 IOT) as follows:
 1. BNC cable (probe) → DFRobot ph meter v2.0
-2. A (aanalog dataph meter v2.0) → A1 (ADS1115)
-3. - (GND ph meter v2.0) → GND (ADS1115)
-4. + (power ph meter v2.0) → VDD (ADS1115)
+2. 'A' pin (aanalog dataph meter v2.0) → A1 (ADS1115)
+3. '-' pin (GND ph meter v2.0) → GND (ADS1115)
+4. '+' pin (power ph meter v2.0) → VDD (ADS1115)
 5. GND (ADS1115) → GND (arduino)
 6. VDD (ADS1115) → 5V (arduino)
 7. SDA (ADS1115) → A4 (arduino)

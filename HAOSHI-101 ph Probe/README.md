@@ -35,7 +35,7 @@ A pH probe measures how acidic or basic a liquid is by measuring the voltage gen
 2. From Tools menu, select *board* and *port*
 
 ### Code:
-Save the script on the Arduino Nano 33 IoT. Use the following C++ script to read data from the probesensor: [cpp code](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Haoshi-101%20pH%20Probe/main.cpp)
+Save the script on the Arduino Nano 33 IoT. Use the following C++ script to read data from the probesensor: [cpp code](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/HAOSHI-101%20ph%20Probe/main.cpp)
 
 
 

@@ -11,7 +11,7 @@ A pH probe measures how acidic or basic a liquid is by checking the voltage crea
 
 [PH probe data sheet](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/HAOSHI-101%20ph%20Probe/pH%20Electrode%20Instruction%20Manua%E2%80%A6.pdf)
 
-##Componnent needed
+## Componnent needed
 1. Arduino nano 33 IOT
 2. Haoshi-101 probe
 3. DFRobot ph metere v2.0

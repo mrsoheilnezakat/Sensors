@@ -2,5 +2,8 @@
 
 - PICO-W 2022
   - [Temperature and Humidity Measurement with DHT22 (AM2302) Module](https://github.com/mrsoheilnezakat/Sensors/tree/main_branch/DHT22%20(AM2302)%20Module)
+
+
 - Arduino nano 33 IoT
-  - jgkj
+  - [Distance Measurement with A02YYUW Waterproof UART Ultrasonic](https://github.com/mrsoheilnezakat/Sensors/tree/main_branch/A02YYUW%20Waterproof%20UART)
+  - [pH meter with Haoshi-101 probe and DFRobot pH Meter v2.0](https://github.com/mrsoheilnezakat/Sensors/tree/main_branch/HAOSHI-101%20ph%20Probe)

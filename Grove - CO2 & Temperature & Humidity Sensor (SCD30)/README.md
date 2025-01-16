@@ -3,7 +3,7 @@
 ## Introduction
 This project involves monitoring carbon dioxide (CO₂) levels, temperature, and humidity using the Grove SCD30 sensor connected to an Arduino Nano 33 IoT via I2C communication.
 
-[Sensor datasheet](hhttps://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Grove%20-%20CO2%20%26%20Temperature%20%26%20Humidity%20Sensor%20(SCD30)/CO2%20%26%20Temperature%20%26%20Humidity%20Sensor%20(SCD30)%20v1.0.pdf)
+[Sensor datasheet](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Grove%20-%20CO2%20%26%20Temperature%20%26%20Humidity%20Sensor%20(SCD30)/CO2%20%26%20Temperature%20%26%20Humidity%20Sensor%20(SCD30)%20v1.0.pdf)
 
 
 

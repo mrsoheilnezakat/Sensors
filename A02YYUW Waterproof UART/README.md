@@ -26,7 +26,7 @@ This project involves measuring distance using an A02YYUW Waterproof UART Ultras
 2. From Tools menu, select *board* and *port*
 
 ### Code:
-Use the following C++ code to read data from the sensor: [cpp code](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/A02YYUW%20Waterproof%20UART/main.cpp)
+ave the script on the Arduino Nano 33 IoT. Use the following C++ scrip to read data from the sensor: [cpp code](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/A02YYUW%20Waterproof%20UART/main.cpp)
 
 
 

@@ -17,7 +17,7 @@ This project involves monitoring carbon dioxide (CO₂) levels, temperature, and
 
 ## Steps to setup
 
-### Connect the Haoshi-101 probe to the MCU (Arduino Nano 33 IoT) as follows:
+### Connect the Grove - Sensor (SCD30) to the MCU (Arduino Nano 33 IoT) as follows:
 1. GND (Black) → GND (Arduino)
 2. VCC (Red) → 5V (Arduino)
 3. SDA (Gray) → A4 (Arduino)

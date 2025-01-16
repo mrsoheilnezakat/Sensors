@@ -5,6 +5,8 @@ This project involves measuring temperature and humidity using a DHT22 (AM2302) 
 
 [Sensor datasheet](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/DHT22%20(AM2302)%20Module/Digital%2Bhumidity%2Band%2Btemperature%2Bsensor%2BAM2302.pdf)
 
+> **_Quick Run:_** simply connect the sensor to Pi Pico W as shown in [Actual Setup](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/DHT22%20(AM2302)%20Module/Images/actual%20setup.jpg). Connect Pi Pico w via a micro usb to system that runs thonny IDE installed while holding the button on device. select the board and port. From manage library in tools menu, install following libraries: "Sensirioncore.h" & "Wire.h" & "SensirionI2cScd30.h". Deploy the given code [cpp code](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Grove%20-%20CO2%20%26%20Temperature%20%26%20Humidity%20Sensor%20(SCD30)/main.cpp) and run it to measure CO2 & Temperature & Humidity.
+
 ## Components Needed
 1. Pico-W 2022
 2. DHT22 (AM2302) module

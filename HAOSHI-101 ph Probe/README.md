@@ -13,7 +13,7 @@ A pH probe measures how acidic or basic a liquid is by measuring the voltage gen
 
 
 
-> **_ShortCut:_** simply connect pH probe, DFRobot board, ADS115 and Arduino as shown in [Actual Setup](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/HAOSHI-101%20ph%20Probe/images/actual%20setup.jpg). Connect Arduino via a micro usb to system that runs arduino IDE installed. select the board and port. From manage library in tools menu, install following libraries: Adafruit_ADS1X15.h & Wire.h. Deploy the given code and run it to measure a solution with pH 4 and then measure a solution with pH 7. Then replace the measured values which are voltage for pH4 and pH7 in the code. From now on, the code will measure any solution or liquid voltage and give you the pH value, by calculating a linear-regression.
+> **_Quick Run:_** simply connect pH probe, DFRobot board, ADS115 and Arduino as shown in [Actual Setup](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/HAOSHI-101%20ph%20Probe/images/actual%20setup.jpg). Connect Arduino via a micro usb to system that runs arduino IDE installed. select the board and port. From manage library in tools menu, install following libraries: Adafruit_ADS1X15.h & Wire.h. Deploy the given code and run it to measure a solution with pH 4 and then measure a solution with pH 7. Then replace the measured values which are voltage for pH4 and pH7 in the code. From now on, the code will measure any solution or liquid voltage and give you the pH value, by calculating a linear-regression.
 
 
 ## Components needed

@@ -3,6 +3,8 @@
 ## Introduction
 This project involves measuring temperature and humidity using a DHT22 (AM2302) module sensor connected to a Raspberry Pi Pico W..
 
+[Sensor datasheet](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/DHT22%20(AM2302)%20Module/Digital%2Bhumidity%2Band%2Btemperature%2Bsensor%2BAM2302.pdf)
+
 ## Components Needed
 1. Pico-W 2022
 2. DHT22 (AM2302) module

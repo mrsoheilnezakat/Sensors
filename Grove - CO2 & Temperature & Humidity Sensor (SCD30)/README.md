@@ -7,7 +7,7 @@ This project involves monitoring carbon dioxide (CO₂) levels, temperature, and
 
 
 
-> **_Quick Run:_** simply connect the sensor to Arduino as shown in [Actual Setup](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Grove%20-%20CO2%20%26%20Temperature%20%26%20Humidity%20Sensor%20(SCD30)/Images/Actual%20setup.jpg). Connect Arduino via a micro usb to system that runs arduino IDE installed. select the board and port. From manage library in tools menu, install following libraries: "Sensirioncore.h" & "Wire.h" & "SensirionI2cScd30.h". Deploy the given code [cpp code](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Grove%20-%20CO2%20%26%20Temperature%20%26%20Humidity%20Sensor%20(SCD30)/main.cpp) and run it to measure CO2 & Temperature & Humidity.
+> **_Quick Run:_** simply connect the sensor to Arduino as shown in [Actual Setup](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Grove%20-%20CO2%20%26%20Temperature%20%26%20Humidity%20Sensor%20(SCD30)/Images/Actual%20setup.jpg). Connect Arduino via a micro usb to system that runs arduino IDE installed. select the board and port. From manage library in tools menu, install following libraries: "Sensirion_Core.h" & "Wire.h" & ["SensirionI2cScd30.h"](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Grove%20-%20CO2%20%26%20Temperature%20%26%20Humidity%20Sensor%20(SCD30)/arduino-i2c-scd30-master.zip). Deploy the given code [cpp code](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Grove%20-%20CO2%20%26%20Temperature%20%26%20Humidity%20Sensor%20(SCD30)/main.cpp) and run it to measure CO2 & Temperature & Humidity.
 
 
 ## Components needed

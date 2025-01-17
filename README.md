@@ -1,6 +1,4 @@
-# Multi-Sensor Data Acquisition with Microcontroller Unit: Scripts and Guides
-
-# 🚀 Welcome to the Sensorverse! 🛠️
+# 🚀 Multi-Sensor Data Acquisition with Microcontroller Unit: Scripts and Guides
 
 Greetings, Code Warriors and Sensor Sages!
 

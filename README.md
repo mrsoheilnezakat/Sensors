@@ -2,7 +2,7 @@
 
 Greetings, Code Warriors and Sensor Sages!
 
-You've just landed in the **Sensorverse** repository—a playground where cutting-edge sensor technology meets meticulous programming. Powered by top-tier sensors acquired through ETCE and masterfully guided under the watchful eye of Prof. Benjamin Leiding at TU Clausthal, this project is where innovation springs to life.
+You've just landed in the **Sensor** repository—a playground where cutting-edge sensor technology meets meticulous programming. Powered by top-tier sensors acquired through ETCE and masterfully guided under the watchful eye of Prof. Benjamin Leiding at TU Clausthal, this project is where innovation springs to life.
 
 ## 🌟 What You'll Find Here
 

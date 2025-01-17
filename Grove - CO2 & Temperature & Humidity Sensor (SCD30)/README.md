@@ -26,7 +26,7 @@ This project involves monitoring carbon dioxide (CO₂) levels, temperature, and
 ### Prepare Arduino Nano 33 IoT
 1. Press and hold the button on the Arduino Nano 33 IoT and connect it to a workstation that has Arduino IDE installed.
 2. From Tools menu, select *board* and *port*
-3. Install following libraries: "Wire.h" & "SensirionI2cScd30.h" and add library by uploading [zip file of SensirionI2cScd30.h]()
+3. Install following libraries: "Wire.h" & "SensirionI2cScd30.h" and add library by uploading [zip file of SensirionI2cScd30.h](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Grove%20-%20CO2%20%26%20Temperature%20%26%20Humidity%20Sensor%20(SCD30)/arduino-i2c-scd30-master.zip)
 
 
 ### Code:

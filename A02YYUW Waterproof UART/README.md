@@ -26,7 +26,7 @@ This project involves measuring distance using an A02YYUW Waterproof UART Ultras
 2. From Tools menu, select *board* and *port*
 
 ### Code:
-ave the script on the Arduino Nano 33 IoT. Use the following C++ scrip to read data from the sensor: [cpp code](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/A02YYUW%20Waterproof%20UART/main.cpp)
+Write or paste [cpp code](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/A02YYUW%20Waterproof%20UART/main.cpp) in the Arduino IDE coding space, first verify it with the button "check mark" below toolbar menu, and then upload it with button "Right arrow", on the arduino. The script will be fetched on the arduino and runs, whenever arduino is connected to apower source. The output will be printed on serial output window. you can open the serioal output from the "SERIAL MONITOR" in Tools menu.
 
 [Actual Setup](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/A02YYUW%20Waterproof%20UART/Images/connection.jpeg)
 

@@ -23,7 +23,7 @@ You've just landed in the **Sensor** repository—a playground where cutting-edg
 1. **Clone the Repository**:
    git clone https://github.com/mrsoheilnezakat/Sensors.git
 
-## Geeky ingredients
+## Supported sensors
 
 - PICO-W 2022
   - [Temperature and Humidity Measurement with DHT22 (AM2302) Module](https://github.com/mrsoheilnezakat/Sensors/tree/main_branch/DHT22%20(AM2302)%20Module)

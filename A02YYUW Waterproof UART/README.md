@@ -26,7 +26,7 @@ This project involves measuring distance using an A02YYUW Waterproof UART Ultras
 2. From Tools menu, select *board* and *port*
 
 ### Code:
-Write or paste [cpp code](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/A02YYUW%20Waterproof%20UART/main.cpp) in the Arduino IDE coding space, first verify it with the button "check mark" below toolbar menu, and then upload it with button "Right arrow", on the arduino. The script will be fetched on the arduino and runs, whenever arduino is connected to apower source. The output will be printed on serial output window. you can open the serioal output from the "SERIAL MONITOR" in Tools menu.
+Write or paste [cpp code](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/A02YYUW%20Waterproof%20UART/main.cpp) into the Arduino IDE’s coding space. First, verify the code by clicking the Check Mark button below the toolbar menu. Then, upload it to the Arduino by clicking the Right Arrow button. The script will be transferred to the Arduino and will run whenever the Arduino is connected to a power source. The output will be displayed in the Serial Output window. You can open the serial output by selecting Serial Monitor from the Tools menu.
 
 [Actual Setup](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/A02YYUW%20Waterproof%20UART/Images/connection.jpeg)
 

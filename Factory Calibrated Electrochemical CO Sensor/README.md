@@ -7,7 +7,7 @@ This project focuses on monitoring carbon monoxide (CO) levels using the DFRobot
 
 
 
-> **_Quick Run:_** simply connect the sensor to Arduino as shown in [Actual Setup](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Factory%20Calibrated%20Electrochemical%20CO%20Sensor/Images/Actual%20Setup.jpeghttps://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Grove%20-%20CO2%20%26%20Temperature%20%26%20Humidity%20Sensor%20(SCD30)/Images/Actual%20setup.jpg). Connect Arduino via a micro usb to system that runs arduino IDE installed. select the board and port. From manage library in tools menu, install following library ["SensirionI2cScd30.h"](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Factory%20Calibrated%20Electrochemical%20CO%20Sensor/DFRobot_MultiGasSensor-main.zip). Deploy the given code [cpp code](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Factory%20Calibrated%20Electrochemical%20CO%20Sensor/main_Passive.cpp) for Passive method or [cpp code](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Factory%20Calibrated%20Electrochemical%20CO%20Sensor/main_Initiative.cpp) for Initiative mode; and run it to measure carbon monoxide (CO).
+> **_Quick Run:_** simply connect the sensor to Arduino as shown in [Actual Setup](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Factory%20Calibrated%20Electrochemical%20CO%20Sensor/Images/Actual%20Setup.jpeghttps://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Grove%20-%20CO2%20%26%20Temperature%20%26%20Humidity%20Sensor%20(SCD30)/Images/Actual%20setup.jpg). Connect Arduino via a micro usb to system that runs arduino IDE installed. select the board and port. From manage library in tools menu, install following library by importing zip file  ["DFRobot_MultiGasSensor.h"](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Factory%20Calibrated%20Electrochemical%20CO%20Sensor/DFRobot_MultiGasSensor-main.zip). Deploy the given code [cpp code (Passive)](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Factory%20Calibrated%20Electrochemical%20CO%20Sensor/main_Passive.cpp) for Passive mode or [cpp code (Initiative)](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Factory%20Calibrated%20Electrochemical%20CO%20Sensor/main_Initiative.cpp) for Initiative mode; and run it to measure carbon monoxide (CO).
 
 
 ## Components needed
@@ -26,13 +26,23 @@ This project focuses on monitoring carbon monoxide (CO) levels using the DFRobot
 ### Prepare Arduino Nano 33 IoT
 1. Press and hold the button on the Arduino Nano 33 IoT and connect it to a workstation that has Arduino IDE installed.
 2. From Tools menu, select *board* and *port*
-3. Install following libraries: "Wire.h" & "SensirionI2cScd30.h" and add library by uploading [zip file of SensirionI2cScd30.h](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Grove%20-%20CO2%20%26%20Temperature%20%26%20Humidity%20Sensor%20(SCD30)/arduino-i2c-scd30-master.zip)
+3. Install following libraries: "DFRobot_MultiGasSensor.h" by uploading [zip file of "DFRobot_MultiGasSensor.h"](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Factory%20Calibrated%20Electrochemical%20CO%20Sensor/DFRobot_MultiGasSensor-main.zip)
 
 
 ### Code:
-Write or paste [cpp code](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Grove%20-%20CO2%20%26%20Temperature%20%26%20Humidity%20Sensor%20(SCD30)/main.cpp) into the Arduino IDE’s coding space. First, verify the code by clicking the Check Mark button below the toolbar menu. Then, upload it to the Arduino by clicking the Right Arrow button. The script will be transferred to the Arduino Nano and will run whenever the Arduino is connected to a power source. The output will be displayed in the Serial Output window. You can open the serial output by selecting Serial Monitor from the Tools menu.
+Write or paste [cpp code (Passive)](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Factory%20Calibrated%20Electrochemical%20CO%20Sensor/main_Passive.cpp) for Passive mode or [cpp code (Initiative)](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Factory%20Calibrated%20Electrochemical%20CO%20Sensor/main_Initiative.cpp) for Initiative mode, into the Arduino IDE’s coding space. First, verify the code by clicking the Check Mark button below the toolbar menu. Then, upload it to the Arduino by clicking the Right Arrow button. The script will be transferred to the Arduino Nano and will run whenever the Arduino is connected to a power source. The output will be displayed in the Serial Output window. You can open the serial output by selecting Serial Monitor from the Tools menu.
 
-[Actual Setup](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Grove%20-%20CO2%20%26%20Temperature%20%26%20Humidity%20Sensor%20(SCD30)/Images/Actual%20setup.jpg)
+> **_Important:_** The DFRobot Gravity Gas Sensor offers two operational modes: Initiative (Active Upload) Mode and Passivity (Passive Response) Mode.
+1.  Initiative Mode: In this mode, the sensor automatically sends data every second without any prompt from the controller. This continuous data stream allows for real-time monitoring without additional commands.
+2.  Passivity Mode: Here, the sensor waits for a request from the controller before sending data. The controller must send a specific command to retrieve the current gas concentration and other parameters.
 
-[Diagram](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/HAOSHI-101%20ph%20Probe/images/diagram.png)
+```ruby
+gas.changeAcquireMode(gas.INITIATIVE); // Sets the sensor to Initiative Mode
+// or
+gas.changeAcquireMode(gas.PASSIVITY);  // Sets the sensor to Passivity Mode
+```
+
+[Actual Setup](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Factory%20Calibrated%20Electrochemical%20CO%20Sensor/Images/Actual%20Setup.jpeghttps://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Grove%20-%20CO2%20%26%20Temperature%20%26%20Humidity%20Sensor%20(SCD30)/Images/Actual%20setup.jpg)
+
+[Diagram](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Factory%20Calibrated%20Electrochemical%20CO%20Sensor/Images/Diagram.png)
 

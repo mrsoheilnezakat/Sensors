@@ -42,7 +42,7 @@ gas.changeAcquireMode(gas.INITIATIVE); // Sets the sensor to Initiative Mode
 gas.changeAcquireMode(gas.PASSIVITY);  // Sets the sensor to Passivity Mode
 ```
 
-[Actual Setup](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Factory%20Calibrated%20Electrochemical%20CO%20Sensor/Images/Actual%20Setup.jpeghttps://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Grove%20-%20CO2%20%26%20Temperature%20%26%20Humidity%20Sensor%20(SCD30)/Images/Actual%20setup.jpg)
+[Actual Setup](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Factory%20Calibrated%20Electrochemical%20CO%20Sensor/Images/Actual%20Setup.jpe)
 
 [Diagram](https://github.com/mrsoheilnezakat/Sensors/blob/main_branch/Factory%20Calibrated%20Electrochemical%20CO%20Sensor/Images/Diagram.png)
 
